@@ -40,14 +40,13 @@
             transition: background 0.2s;
         }
         .btn:hover { background: #d63851; }
-        .secondary {
-            display: block;
-            margin-top: 16px;
-            color: rgba(255, 255, 255, 0.6);
-            font-size: 13px;
-            text-decoration: none;
+        .play-badge {
+            display: inline-block;
+            margin-top: 20px;
+            transition: opacity 0.2s;
         }
-        .secondary:hover { color: #fff; }
+        .play-badge:hover { opacity: 0.85; }
+        .play-badge img { height: 56px; }
     </style>
 </head>
 <body>
@@ -59,8 +58,8 @@
         <a id="store-btn" class="btn" href="https://play.google.com/store/apps/details?id=com.radiora.app" style="display:none;">
             Get Radiora on Google Play
         </a>
-        <a class="secondary" href="https://play.google.com/store/apps/details?id=com.radiora.app">
-            Download on Google Play
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.radiora.app">
+            <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png">
         </a>
     </div>
     <script>
